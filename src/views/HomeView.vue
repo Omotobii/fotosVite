@@ -15,7 +15,7 @@ export default {
     fetchPhotos() {
       axios
         .get(
-          'https://api.unsplash.com/photos?client_id={the access key goes here}&per_page=30'
+          'https://api.unsplash.com/photos?client_id=JIlIE1lRevVKzU8TXEUVkZ3qdjC7HVP25XOl-UGMz4g&per_page=30'
         )
         .then((response) => {
           this.photos = response.data
