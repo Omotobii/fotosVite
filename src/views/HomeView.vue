@@ -19,7 +19,6 @@ export default {
         )
         .then((response) => {
           this.photos = response.data
-          console.log(this.photos)
         })
     },
     more: function(id){
@@ -27,7 +26,6 @@ export default {
       let photo = allPhotos.filter(photo => photo.id == id)
       this.photo = photo
       this.showMore = !this.showMore
-      console.log(this.photo)
     },
   },
   created() {
