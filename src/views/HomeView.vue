@@ -44,7 +44,7 @@ export default {
         <h4 class="publisher">- {{ photo.user.name }}</h4>
       </div>
     </div>
-  </div>
+  </div>    
 </template>
 
 <style scoped>
@@ -117,7 +117,7 @@ img {
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1919px) {
+@media (min-width: 1200px) {
   .platform {
     columns: 5;
     break-inside: avoid;

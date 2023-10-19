@@ -12,7 +12,7 @@ export default {
 <template>
     <div class="container" @click.self="closePhoto">
         <div class="photo-box" v-for="photo in photo" :key="photo.id">
-            <img :src="photo.urls.full" alt="">
+            <img :src="photo.urls.full" :alt="photo.alt_description">
 
             <div class="photo-info">
                 <h1>{{ photo.alt_description }}</h1>
